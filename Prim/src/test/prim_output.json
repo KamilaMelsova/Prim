@@ -1,0 +1,76 @@
+{"results": [
+    {
+        "prim": {
+            "mst_edges": [
+                {
+                    "from": "C",
+                    "cost": 4,
+                    "to": "B"
+                },
+                {
+                    "from": "A",
+                    "cost": 2,
+                    "to": "C"
+                },
+                {
+                    "from": "B",
+                    "cost": 3,
+                    "to": "D"
+                },
+                {
+                    "from": "D",
+                    "cost": 7,
+                    "to": "E"
+                }
+            ],
+            "num_vertices": 5,
+            "total_cost": 16,
+            "execution_time_ms": 0.06,
+            "operations_count": 20,
+            "num_edges": 4,
+            "algorithm": "Prim"
+        },
+        "input_stats": {
+            "vertices": 5,
+            "edges": 7
+        },
+        "graph_id": 1
+    },
+    {
+        "prim": {
+            "mst_edges": [
+                {
+                    "from": "A",
+                    "cost": 2,
+                    "to": "B"
+                },
+                {
+                    "from": "E",
+                    "cost": 3,
+                    "to": "C"
+                },
+                {
+                    "from": "B",
+                    "cost": 4,
+                    "to": "D"
+                },
+                {
+                    "from": "B",
+                    "cost": 5,
+                    "to": "E"
+                }
+            ],
+            "num_vertices": 5,
+            "total_cost": 14,
+            "execution_time_ms": 0.01,
+            "operations_count": 20,
+            "num_edges": 4,
+            "algorithm": "Prim"
+        },
+        "input_stats": {
+            "vertices": 5,
+            "edges": 6
+        },
+        "graph_id": 2
+    }
+]}
